@@ -1,108 +1,125 @@
 {
-    "flights":[
+  "flights": [
+    {
+      "id": 1,
+      "origen": "medellin",
+      "destino": "Cartagena",
+      "salidaDate": "2022-10-26",
+      "regresoDate": "2022-10-28",
+      "time": "5pm",
+
+      "seats": [
         {
-            "id":1,
-            "code": "AV16544",
-            "dateFlight": "15/10/2022",
-            "timeFlight": "10:00 am",
-            "itinerary":{
-                "origin": "Cartagena",
-                "destiny": "Medellín",
-                "scales": false,
-                "duration": "1h 30min",
-                "price": "100.000 COP"
-            },
-            "seats":[
-                {
-                    "id": 1,
-                    "code": "A01",
-                    "available": true,
-                    "userId": 1
-                },
-                {
-                    "id": 2,
-                    "code": "B01",
-                    "available": false,
-                    "userId": null
-                },
-                {
-                    "id": 3,
-                    "code": "B05",
-                    "available": true,
-                    "userId": 2
-                }
-            ]
+          "id": 1,
+          "code": "A01",
+          "available": true,
+          "userId": 1
         },
         {
-            "id":2,
-            "code": "AV16545",
-            "dateFlight": "16/10/2022",
-            "timeFlight": "9:00 am",
-            "itinerario":{
-                "origin": "Medellín",
-                "destiny": "Cartagena",
-                "scales": false,
-                "duration": "1h 30min",
-                "price": "100.000 COP"
-            },
-            "seats":[
-                {
-                    "id": 1,
-                    "code": "C01",
-                    "available": true,
-                    "userId": 1
-                },
-                {
-                    "id": 2,
-                    "code": "D01",
-                    "available": false,
-                    "userId": null
-                },
-                {
-                    "id": 3,
-                    "code": "E03",
-                    "available": true,
-                    "userId": 2
-                }
-            ]
-        }
-
-    ],
-    "passengers":[
-        {
-            "id": 1,
-            "information":{
-                "name": "Ricardo",
-                "lastName": "Camacho",
-                "age": "19",
-                "typeId": "C.C",
-                "noId": "16556",
-                "address":{
-                    "city": "Cartagena",
-                    "country": "Colombia",
-                    "neighborhood": "Los Ejecutivos"
-                }
-            },
-            "flightId": 1,
-            "seat": "A05"            
+          "id": 2,
+          "code": "B01",
+          "available": false,
+          "userId": null
         },
         {
-            "id": 2,
-            "information":{
-                "name": "Armando",
-                "lastName": "Camacho",
-                "age": "50",
-                "typeId": "C.C",
-                "noId": "1655156466",
-                "address":{
-                    "city": "Cartagena",
-                    "country": "Colombia",
-                    "neighborhood": "Los Ejecutivos"
-                }
-            },
-            "flightId": 2,
-            "seat": "B05"            
+          "id": 3,
+          "code": "B05",
+          "available": true,
+          "userId": 2
         }
-    ]
-
+      ]
+    },
+    {
+      "id": 2,
+      "origen": "Bogotá",
+      "destino": "Santa Marta",
+      "salidaDate": "2022-10-26",
+      "regresoDate": "2022-10-30",
+      "time": "5pm",
+      "seats": [
+        {
+          "id": 1,
+          "code": "C01",
+          "available": true,
+          "userId": 1
+        },
+        {
+          "id": 2,
+          "code": "D01",
+          "available": false,
+          "userId": null
+        },
+        {
+          "id": 3,
+          "code": "E03",
+          "available": true,
+          "userId": 2
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "origen": "Cartagena",
+      "destino": "Medellín",
+      "salidaDate": "2022-10-28",
+      "regresoDate": "2022-10-31",
+      "time": "5pm",
+      "seats": [
+        {
+          "id": 1,
+          "code": "C01",
+          "available": true,
+          "userId": 1
+        },
+        {
+          "id": 2,
+          "code": "D01",
+          "available": false,
+          "userId": null
+        },
+        {
+          "id": 3,
+          "code": "E03",
+          "available": true,
+          "userId": 2
+        }
+      ]
+    }
+  ],
+  "passengers": [
+    {
+      "id": 1,
+      "information": {
+        "name": "Ricardo",
+        "lastName": "Camacho",
+        "age": "19",
+        "typeId": "C.C",
+        "noId": "16556",
+        "address": {
+          "city": "Cartagena",
+          "country": "Colombia",
+          "neighborhood": "Los Ejecutivos"
+        }
+      },
+      "flightId": 1,
+      "seat": "A05"
+    },
+    {
+      "id": 2,
+      "information": {
+        "name": "Armando",
+        "lastName": "Camacho",
+        "age": "50",
+        "typeId": "C.C",
+        "noId": "1655156466",
+        "address": {
+          "city": "Cartagena",
+          "country": "Colombia",
+          "neighborhood": "Los Ejecutivos"
+        }
+      },
+      "flightId": 2,
+      "seat": "B05"
+    }
+  ]
 }
