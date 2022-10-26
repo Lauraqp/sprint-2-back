@@ -7,6 +7,7 @@
       "salidaDate": "2022-10-26",
       "regresoDate": "2022-10-28",
       "time": "5pm",
+      "pasajeros": "2",
 
       "seats": [
         {
@@ -36,6 +37,7 @@
       "salidaDate": "2022-10-26",
       "regresoDate": "2022-10-30",
       "time": "5pm",
+      "pasajeros": "1",
       "seats": [
         {
           "id": 1,
