@@ -91,12 +91,6 @@
           "code": "D01",
           "available": false,
           "userId": null
-        },
-        {
-          "id": 3,
-          "code": "E03",
-          "available": true,
-          "userId": 2
         }
       ]
     }
