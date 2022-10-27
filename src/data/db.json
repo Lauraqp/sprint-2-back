@@ -6,8 +6,11 @@
       "destino": "Cartagena",
       "salidaDate": "2022-10-26",
       "regresoDate": "2022-10-28",
-      "time": "5pm",
+      "time": "5:00 pm",
       "pasajeros": "2",
+      "scales": false,
+      "duracion": "1h 30min",
+      "precio": "100.000 COP",
 
       "seats": [
         {
@@ -36,8 +39,11 @@
       "destino": "Santa Marta",
       "salidaDate": "2022-10-26",
       "regresoDate": "2022-10-30",
-      "time": "5pm",
-      "pasajeros": "1",
+      "time": "9:00 am",
+      "pasajeros": "2",
+      "scales": false,
+      "duracion": "1h 30min",
+      "precio": "100.000 COP",
       "seats": [
         {
           "id": 1,
@@ -65,7 +71,11 @@
       "destino": "Medellín",
       "salidaDate": "2022-10-28",
       "regresoDate": "2022-10-31",
-      "time": "5pm",
+      "time": "11:00 pm",
+      "pasajeros": "1",
+      "scales": false,
+      "duracion": "1h 30min",
+      "precio": "100.000 COP",
       "seats": [
         {
           "id": 1,
@@ -98,7 +108,7 @@
         "typeId": "C.C",
         "noId": "16556",
         "address": {
-          "city": "Cartagena",
+          "city": "Medellín",
           "country": "Colombia",
           "neighborhood": "Los Ejecutivos"
         }
@@ -115,7 +125,7 @@
         "typeId": "C.C",
         "noId": "1655156466",
         "address": {
-          "city": "Cartagena",
+          "city": "Bogotá",
           "country": "Colombia",
           "neighborhood": "Los Ejecutivos"
         }
